@@ -1,0 +1,91 @@
+TFdupe
+v7
+r0
+t356655293.214768
+cCheck dependencies
+cCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o /Users/Rina/git/fdupe/Fdupe/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o /Users/Rina/git/fdupe/Fdupe/utilities.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe
+t2
+s0
+
+N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/Fdupe.LinkFileList
+c000000004F91E93D00000000000000BF
+t1334962493
+s191
+
+N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o
+t2
+s0
+
+N/Users/Rina/git/fdupe/Fdupe/main.c
+c000000004F91E92800000000000000BF
+t1334962472
+s191
+i<stdio.h>
+i"utility.h"
+
+N/Users/Rina/git/fdupe/Fdupe/utilities.c
+c000000004F91E93200000000000004C6
+t1334962482
+s1222
+i"utilities.h"
+
+N/Users/Rina/git/fdupe/Fdupe/utilities.h
+c000000004F91E7E90000000000000141
+t1334962153
+s321
+
+N/Users/Rina/git/fdupe/Fdupe/utility.h
+c000000004F91E5510000000000000056
+t1334961489
+s86
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies356655293#356655293#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o /Users/Rina/git/fdupe/Fdupe/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s356655293.202492
+e356655293.207469
+r0
+xCompileC
+xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o
+x/Users/Rina/git/fdupe/Fdupe/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/Rina/git/fdupe/Fdupe/main.c356655293#356655293#0(656"/Users/Rina/git/fdupe/Fdupe/main.c: In function 'main':/Users/Rina/git/fdupe/Fdupe/main.c:11: error: 'LINK' undeclared (first use in this function)/Users/Rina/git/fdupe/Fdupe/main.c:11: error: (Each undeclared identifier is reported only once/Users/Rina/git/fdupe/Fdupe/main.c:11: error: for each function it appears in.)/Users/Rina/git/fdupe/Fdupe/main.c:11: error: expected ';' before 'files'/Users/Rina/git/fdupe/Fdupe/main.c:11:22: warning: missing terminating ' character/Users/Rina/git/fdupe/Fdupe/main.c:11: error: missing terminating ' character/Users/Rina/git/fdupe/Fdupe/main.c:13: error: expected declaration or statement at end of input5(4@46"'LINK' undeclared (first use in this function)356655293#56#93#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655272#11#0#11#0#43"'*' undeclared (first use in this function)0(4@27"Expected ';' before 'files'356655293#325#74#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655272#11#0#11#0#19"expected * before *0(22@31"Missing terminating ' character356655293#399#83#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655272#11#0#11#0#0"0(4@31"Missing terminating ' character356655293#482#78#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655272#11#0#11#0#0"0(4@49"Expected declaration or statement at end of input356655293#560#96#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655272#13#0#13#0#49"expected declaration or statement at end of input0(0#0#34"/Users/Rina/git/fdupe/Fdupe/main.c7955997338297972736#1113"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -c /Users/Rina/git/fdupe/Fdupe/main.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o1#
+
+CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o /Users/Rina/git/fdupe/Fdupe/utilities.c normal x86_64 c com.apple.compilers.gcc.4_2
+s356655293.207519
+e356655293.214715
+r0
+xCompileC
+xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o
+x/Users/Rina/git/fdupe/Fdupe/utilities.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Rina/git/fdupe/Fdupe/utilities.c356655293#356655293#0(648"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c:10:/Users/Rina/git/fdupe/Fdupe/utilities.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'void'/Users/Rina/git/fdupe/Fdupe/utilities.h:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'ELEMENT'/Users/Rina/git/fdupe/Fdupe/utilities.h:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token/Users/Rina/git/fdupe/Fdupe/utilities.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'listdir'/Users/Rina/git/fdupe/Fdupe/utilities.c:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'listdir'5(4@62"Expected '=', ',', ';', 'asm' or '__attribute__' before 'void'356655293#66#114#2(7@61"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356655282#10#0#10#0#0"0(13@105"Expected '=', ',', ';', 'asm' or '__attribute__' before 'void' in /Users/Rina/git/fdupe/Fdupe/utilities.h356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#10#0#10#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#10#0#10#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'ELEMENT'356655293#180#117#2(7@61"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356655282#10#0#10#0#0"0(13@108"Expected '=', ',', ';', 'asm' or '__attribute__' before 'ELEMENT' in /Users/Rina/git/fdupe/Fdupe/utilities.h356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#17#0#17#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#17#0#17#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '*' token356655293#297#117#2(7@61"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356655282#10#0#10#0#0"0(13@108"Expected '=', ',', ';', 'asm' or '__attribute__' before '*' token in /Users/Rina/git/fdupe/Fdupe/utilities.h356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#18#0#18#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#18#0#18#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'listdir'356655293#414#117#2(7@61"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356655282#10#0#10#0#0"0(13@108"Expected '=', ',', ';', 'asm' or '__attribute__' before 'listdir' in /Users/Rina/git/fdupe/Fdupe/utilities.h356655293#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#22#0#22#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356654953#22#0#22#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'listdir'356655293#531#117#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356655282#13#0#13#0#19"expected * before *0(0#0#39"/Users/Rina/git/fdupe/Fdupe/utilities.c8614326080#1123"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -c /Users/Rina/git/fdupe/Fdupe/utilities.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o1#
+
+CLd /Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe normal x86_64
+r0
+
