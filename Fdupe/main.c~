@@ -1,12 +1,3 @@
-/*
- *  utilities.h
- *  Fdupe
- *
- *  Created by Brad Mccormack on 21/04/12.
- *  
- *
- */
-
 #include <stdio.h>
 #include "utilities.h"
 

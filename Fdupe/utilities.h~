@@ -27,17 +27,17 @@ typedef enum {false,true} boolean;
 typedef  void* NODEDATA;
 
 struct queuenode{
-  NODEDATA data;
-  struct queuenode *next;
+	NODEDATA data;
+	struct queuenode *next;
 };
 
 typedef struct queuenode NODE;
 typedef struct queuenode* NODELINK;
 
 struct queue{
-  int length;
-  NODELINK FRONT;
-  NODELINK BACK;
+	int length;
+	NODELINK FRONT;
+	NODELINK BACK;
 };
 
 typedef struct queue QUEUE;
@@ -45,7 +45,7 @@ typedef struct queue QUEUE;
 /*
  * The storage mechanism for the MD5 sums will be a hashset of linked lists where the key is the md5 sum and the value is a list of all files matching that sum
  *
- */
+*/
 
 /* Will return a list of files in direcory specified by path (recursive) */
 void listdir(char* path, QUEUE* files);
