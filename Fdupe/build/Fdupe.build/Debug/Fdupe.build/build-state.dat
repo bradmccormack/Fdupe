@@ -1,152 +1,0 @@
-TFdupe
-v7
-r0
-t356656423.248726
-cCheck dependencies
-cCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o /Users/Rina/git/fdupe/Fdupe/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o /Users/Rina/git/fdupe/Fdupe/utilities.c normal x86_64 c com.apple.compilers.gcc.4_2
-cLd /Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
-c000000004BBD2CE900000000000016D3
-t1270689001
-s5843
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
-c000000004C2399480000000000004A1D
-t1277401416
-s18973
-
-N/Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe
-t1334963623
-s9968
-
-N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/Fdupe.LinkFileList
-c000000004F91E93D00000000000000BF
-t1334962493
-s191
-
-N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o
-t1334963563
-s2644
-
-N/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o
-t1334963622
-s6136
-
-N/Users/Rina/git/fdupe/Fdupe/main.c
-c000000004F91EA3B00000000000000C4
-t1334962747
-s196
-i<stdio.h>
-i"utilities.h"
-
-N/Users/Rina/git/fdupe/Fdupe/utilities.c
-c000000004F91EDA600000000000004C0
-t1334963622
-s1216
-i"utilities.h"
-
-N/Users/Rina/git/fdupe/Fdupe/utilities.h
-c000000004F91ED6B00000000000001EA
-t1334963563
-s490
-i<stdio.h>
-i<string.h>
-i<sys/stat.h>
-i<stdlib.h>
-i"dirent.h"
-
-N/Users/Rina/git/fdupe/Fdupe/utility.h
-c000000004F91E5510000000000000056
-t1334961489
-s86
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies356656423#356656423#0(0"0(0#1#0"8613845792#0"0#
-
-CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o /Users/Rina/git/fdupe/Fdupe/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-s356656363.913982
-e356656363.954279
-r1
-xCompileC
-xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o
-x/Users/Rina/git/fdupe/Fdupe/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/Rina/git/fdupe/Fdupe/main.c356656363#356656363#0(0"0(0#0#34"/Users/Rina/git/fdupe/Fdupe/main.c8614630944#1113"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -c /Users/Rina/git/fdupe/Fdupe/main.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o0#
-
-CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o /Users/Rina/git/fdupe/Fdupe/main.c normal x86_64 c com.apple.compilers.llvmgcc42
-s356656280.819010
-e356656280.846504
-r0
-xCompileC
-xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o
-x/Users/Rina/git/fdupe/Fdupe/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-oIn file included from /Users/Rina/git/fdupe/Fdupe/main.c:2:
-o/Users/Rina/git/fdupe/Fdupe/utilities.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'
-lSLF07#2@42"Compile /Users/Rina/git/fdupe/Fdupe/main.c356656280#356656280#0(177"In file included from /Users/Rina/git/fdupe/Fdupe/main.c:2:/Users/Rina/git/fdupe/Fdupe/utilities.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'1(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'356656280#60#117#2(7@56"In file included from /Users/Rina/git/fdupe/Fdupe/main.c356656280#18446744073709551615#0#0(6@34"/Users/Rina/git/fdupe/Fdupe/main.c356655547#2#0#2#0#0"0(13@108"Expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef' in /Users/Rina/git/fdupe/Fdupe/utilities.h356656280#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356656244#25#0#25#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356656244#25#0#25#0#19"expected * before *0(0#0#34"/Users/Rina/git/fdupe/Fdupe/main.c8613393472#1159"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -c /Users/Rina/git/fdupe/Fdupe/main.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/main.o1#
-
-CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o /Users/Rina/git/fdupe/Fdupe/utilities.c normal x86_64 c com.apple.compilers.gcc.4_2
-s356656423.234664
-e356656423.235628
-r1
-xCompileC
-xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o
-x/Users/Rina/git/fdupe/Fdupe/utilities.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/Rina/git/fdupe/Fdupe/utilities.c356656423#356656423#0(0"0(0#0#39"/Users/Rina/git/fdupe/Fdupe/utilities.c8604611520#1123"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -c /Users/Rina/git/fdupe/Fdupe/utilities.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o0#
-
-CCompileC build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o /Users/Rina/git/fdupe/Fdupe/utilities.c normal x86_64 c com.apple.compilers.llvmgcc42
-s356656280.819697
-e356656280.820539
-r0
-xCompileC
-xbuild/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o
-x/Users/Rina/git/fdupe/Fdupe/utilities.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvmgcc42
-lSLF07#2@47"Compile /Users/Rina/git/fdupe/Fdupe/utilities.c356656280#356656280#0(340"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c:10:/Users/Rina/git/fdupe/Fdupe/utilities.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'/Users/Rina/git/fdupe/Fdupe/utilities.c: In function 'listdir':/Users/Rina/git/fdupe/Fdupe/utilities.c:35: warning: implicit declaration of function 'read'2(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef'356656280#66#117#2(7@61"In file included from /Users/Rina/git/fdupe/Fdupe/utilities.c356656280#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356656279#10#0#10#0#0"0(13@108"Expected '=', ',', ';', 'asm' or '__attribute__' before 'typedef' in /Users/Rina/git/fdupe/Fdupe/utilities.h356656280#18446744073709551615#0#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356656244#25#0#25#0#0"0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.h356656244#25#0#25#0#19"expected * before *0(22@39"Implicit declaration of function 'read'356656280#247#93#0(6@39"/Users/Rina/git/fdupe/Fdupe/utilities.c356656279#35#0#35#0#36"implicit declaration of function '*'0(0#0#39"/Users/Rina/git/fdupe/Fdupe/utilities.c8612885472#1169"    cd /Users/Rina/git/fdupe/Fdupe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-generated-files.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-own-target-headers.hmap -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-all-target-headers.hmap -iquote /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Fdupe-project-headers.hmap -F/Users/Rina/git/fdupe/Fdupe/build/Debug -I/Users/Rina/git/fdupe/Fdupe/build/Debug/include -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources/x86_64 -I/Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/DerivedSources -isysroot /Developer/SDKs/MacOSX10.6.sdk -c /Users/Rina/git/fdupe/Fdupe/utilities.c -o /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/utilities.o1#
-
-CLd /Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe normal x86_64
-s356656423.235673
-e356656423.248691
-r1
-xLd
-x/Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe
-xnormal
-xx86_64
-lSLF07#2@50"Link /Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe356656423#356656423#0(0"0(0#0#0"8615604864#435"    cd /Users/Rina/git/fdupe/Fdupe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Rina/git/fdupe/Fdupe/build/Debug -F/Users/Rina/git/fdupe/Fdupe/build/Debug -filelist /Users/Rina/git/fdupe/Fdupe/build/Fdupe.build/Debug/Fdupe.build/Objects-normal/x86_64/Fdupe.LinkFileList -mmacosx-version-min=10.6 -o /Users/Rina/git/fdupe/Fdupe/build/Debug/Fdupe0#
-
