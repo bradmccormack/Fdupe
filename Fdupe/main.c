@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include "utilities.h"
+#include "opencl.h"
 
 
 int main (int argc, const char **argv) {
@@ -25,11 +26,11 @@ int main (int argc, const char **argv) {
       printf("Files at %s\n",argv[1]);
       while(!empty(files))
       {
-	fileinfo = dequeue(files);
-	if(fileinfo != NULL)
-	{
-	  printf("%s\n",(char*) fileinfo);
-	}
+		fileinfo = dequeue(files);
+		if(fileinfo != NULL)
+		{
+	  	printf("%s\n",(char*) fileinfo);
+		}
       }
     }
   }
@@ -38,5 +39,10 @@ int main (int argc, const char **argv) {
     printf("Syntax: fdupe path\n");
   }
   free(files);
+  
+  /* Test setting up and freeing of OpenCL related memory/devices */
+  OpenCLInit();
+  OpenCLFree();
+  
   return 0;
 }

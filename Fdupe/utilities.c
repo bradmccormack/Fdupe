@@ -7,7 +7,7 @@
  *
  */
 
-#define LINUX
+#define OSX
 
 #include "utilities.h"
 
