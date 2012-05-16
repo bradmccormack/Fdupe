@@ -1,0 +1,26 @@
+Fdupe is a simple duplicate file checker. 
+
+The first implementation is not intended to have any quick checking of duplicates via checking of File meta data and other shortcuts. Fdupe's intention is to maintain duplication detection with accuracy and performance. 
+
+To achieve this it will hash the contents of every file and then compare the count of files that belong to each hash to determine if there are duplicates or not.
+
+The performance characteristics will hopefully be achieved by a combination of Posix threads (for Nix os) and Win32 threads (later) and offloading hashing to the GPU via OpenCL.
+
+Fdupe is primarily a backend and will allow easy integrations with various UI toolkits such as QT, GTK and so on.
+
+My reasons for undertaking Fdupe are
+* Learning straight C coding techniques
+* Acquiring knowledge with C, Compiler and various platform optimisations
+* Learning to program using GPGPU technology (OpenCL)
+* Have a reasonable understanding of threading using Posix and Win32 (later)
+
+
+Current usage syntax:
+
+fdupe path
+
+Results will be a list of hashes and the file that belongs to that hash followed by a count of files for that hash.
+
+I'm very open to anybody contributing and helping me learn !
+
+
