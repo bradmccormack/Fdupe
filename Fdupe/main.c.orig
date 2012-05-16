@@ -26,11 +26,19 @@ int main (int argc, const char **argv) {
       printf("Files at %s\n",argv[1]);
       while(!empty(files))
       {
+<<<<<<< HEAD
+	fileinfo = dequeue(files);
+	if(fileinfo != NULL)
+	{
+	  printf("%s\n",(char*) fileinfo);
+	}
+=======
 		fileinfo = dequeue(files);
 		if(fileinfo != NULL)
 		{
 	  	printf("%s\n",(char*) fileinfo);
 		}
+>>>>>>> OpenCL
       }
     }
   }
@@ -39,10 +47,13 @@ int main (int argc, const char **argv) {
     printf("Syntax: fdupe path\n");
   }
   free(files);
+<<<<<<< HEAD
+=======
   
   /* Test setting up and freeing of OpenCL related memory/devices */
   OpenCLInit();
   OpenCLFree();
   
+>>>>>>> OpenCL
   return 0;
 }

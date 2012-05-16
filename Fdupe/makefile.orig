@@ -4,6 +4,12 @@ CXXLDFLAGS =
 
 OBJECTS = \
 	utilities.o\
+<<<<<<< HEAD
+	
+
+fdupe: fdupe.o deps
+	$(CXX) fdupe.o $(OBJECTS)  -o fdupe
+=======
 	opencl.o\
 	
 
@@ -12,6 +18,7 @@ fdupe_osx: fdupe.o deps
 
 fdupe: fdupe.o deps
 	$(CXX) fdupe.o $(OBJECTS) -o fdupe
+>>>>>>> OpenCL
 
 fdupe.o: main.c
 	$(CXX) $(CXXFLAGS) -c main.c -o fdupe.o
@@ -21,8 +28,14 @@ deps: $(OBJECTS)
 utilities.o: utilities.c
 	$(CXX) $(CXXFLAGS) -c utilities.c
 
+<<<<<<< HEAD
+
+clean:
+	rm *.o
+=======
 opencl.o: opencl.c
 	$(CXX) $(CXXFLAGS) -c opencl.c
 
 clean:
 	rm *.o rm fdupe
+>>>>>>> OpenCL
