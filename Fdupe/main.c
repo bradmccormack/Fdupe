@@ -12,7 +12,9 @@
 #include "opencl.h"
 
 
-int main (int argc, const char **argv) {
+int main (int argc, const char **argv) 
+{
+  int error;
   
   NODEDATA fileinfo;
   QUEUE* files= malloc(sizeof(QUEUE));
@@ -41,8 +43,9 @@ int main (int argc, const char **argv) {
   free(files);
   
   /* Test setting up and freeing of OpenCL related memory/devices */
-  OpenCLInit();
+
+  error = OpenCLInit();
   OpenCLFree();
   
-  return 0;
+  return error;
 }
