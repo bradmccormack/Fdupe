@@ -17,6 +17,20 @@ void OpenCLGetDeviceData(cl_device_id* Device, deviceData* DeviceData)
 		 * Fill devicedata with information we are interested in 
 		*/
 	}
+	else if(opencl_error == CL_INVALID_DEVICE)
+	{
+		printf(" The device is invalid. Failed to query information\n");
+	}
+	else if(opencl_error == CL_INVALID_VALUE)
+	{
+		printf(" The query was invalid, A paramater is not valid\n");
+	}
+	else
+	{
+		DeviceData -> max_memory = 0;
+		printf("Failed to query maximum allocation size on the compute device\n");
+	}
+
 }
 
 

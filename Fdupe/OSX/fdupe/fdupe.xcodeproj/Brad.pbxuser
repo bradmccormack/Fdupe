@@ -7,17 +7,44 @@
 		addToTargets = (
 			8DD76FA90486AB0100D96B5E /* fdupe */,
 		);
+		breakpoints = (
+			A239EDAF1569B05700B55133 /* opencl.c:13 */,
+		);
 		codeSenseManager = A291171F1569A29500339291 /* Code sense */;
 		executables = (
 			A291171A1569A28C00339291 /* fdupe */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					953,
+					2113,
 					20,
 					48,
 					43,
@@ -56,8 +83,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 359245989;
-			PBXWorkspaceStateSaveDate = 359245989;
+			PBXPerProjectTemplateStateSaveDate = 359247572;
+			PBXWorkspaceStateSaveDate = 359247572;
+		};
+		perUserProjectItems = {
+			A239EDFC1569B4C700B55133 /* PBXTextBookmark */ = A239EDFC1569B4C700B55133 /* PBXTextBookmark */;
+			A239EDFD1569B4C700B55133 /* PBXTextBookmark */ = A239EDFD1569B4C700B55133 /* PBXTextBookmark */;
+			A239EE001569B4C900B55133 /* PBXTextBookmark */ = A239EE001569B4C900B55133 /* PBXTextBookmark */;
 		};
 		sourceControlManager = A291171E1569A29500339291 /* Source Control */;
 		userBuildSettings = {
@@ -69,6 +101,54 @@
 			A291171A1569A28C00339291 /* fdupe */,
 		);
 	};
+	A239EDAF1569B05700B55133 /* opencl.c:13 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A29117231569A2A900339291 /* opencl.c */;
+		functionName = "OpenCLGetDeviceData()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 13;
+		location = fdupe;
+		modificationTime = 359249075.706632;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A239EDFC1569B4C700B55133 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A29117241569A2A900339291 /* opencl.h */;
+		name = "opencl.h: 16";
+		rLen = 10;
+		rLoc = 350;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	A239EDFD1569B4C700B55133 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A29117231569A2A900339291 /* opencl.c */;
+		name = "opencl.c: 25";
+		rLen = 0;
+		rLoc = 761;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 0;
+	};
+	A239EE001569B4C900B55133 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A29117231569A2A900339291 /* opencl.c */;
+		name = "opencl.c: 15";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 0;
+	};
 	A291171A1569A28C00339291 /* fdupe */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -76,7 +156,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -85,6 +165,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -92,9 +173,13 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = fdupe;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	A291171E1569A29500339291 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -109,5 +194,19 @@
 	A291171F1569A29500339291 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	A29117231569A2A900339291 /* opencl.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2291, 1365}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 1528}";
+		};
+	};
+	A29117241569A2A900339291 /* opencl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2291, 763}}";
+			sepNavSelRange = "{350, 10}";
+			sepNavVisRange = "{0, 474}";
+		};
 	};
 }
