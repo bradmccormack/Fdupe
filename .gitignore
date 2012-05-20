@@ -2,3 +2,14 @@
 *.o
 *~
 fdupe
+bin/
+build/
+build/*
+.DS_Store
+*.swp
+*~.nib
+*.pbxuser
+*.perspective
+*.perspective3
+*.1
+
